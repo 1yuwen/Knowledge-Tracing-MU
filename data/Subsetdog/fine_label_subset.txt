@@ -1,0 +1,99 @@
+clumber spaniel
+English springer spaniel
+Welsh springer spaniel
+cocker spaniel
+Sussex spaniel
+Irish water spaniel
+Brittany spaniel
+German short-haired pointer
+vizsla
+English setter
+Irish setter
+Gordon setter
+Afghan hound
+basset hound
+beagle
+bloodhound
+bluetick
+black-and-tan coonhound
+Walker foxhound
+English foxhound
+redbone
+borzoi
+Irish wolfhound
+Italian greyhound
+whippet
+Ibizan hound
+Norwegian elkhound
+otterhound
+Saluki
+Scottish deerhound
+Weimaraner
+Staffordshire bull terrier
+American Staffordshire terrier
+Bedlington terrier
+Border terrier
+Kerry blue terrier
+Irish terrier
+Norfolk terrier
+Norwich terrier
+Yorkshire terrier
+wire-haired fox terrier
+Lakeland terrier
+Sealyham terrier
+Airedale terrier
+cairn terrier
+Australian terrier
+Dandie Dinmont terrier
+Boston terrier
+miniature schnauzer
+giant schnauzer
+standard schnauzer
+Scottish terrier
+Tibetan terrier
+silky terrier
+soft-coated wheaten terrier
+West Highland white terrier
+toy poodle
+miniature poodle
+standard poodle
+Pomeranian
+Samoyed
+chow chow
+keeshond
+groenendael
+malinois
+Border collie
+Bouvier des Flandres
+briard
+collie
+German shepherd dog
+kelpie
+komondor
+Old English sheepdog
+Rottweiler
+Shetland sheepdog
+Chihuahua
+Japanese spaniel
+Maltese
+Pekingese
+Shih-Tzu
+Blenheim spaniel
+papillon
+toy terrier
+affenpinscher
+miniature pinscher
+Doberman
+Alaskan malamute
+Siberian husky
+Cardigan
+Pembroke
+Greater Swiss Mountain dog
+Bernese mountain dog
+Appenzeller
+EntleBucher
+flat-coated retriever
+curly-coated retriever
+golden retriever
+Labrador retriever
+Chesapeake Bay retriever

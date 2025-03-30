@@ -1,0 +1,14 @@
+spaniel
+pointer
+setter
+hound
+terrier
+poodle dog
+spitz
+shepherd dog
+toy dog
+pinscher
+sled dog
+corgi
+sennenhunde
+retriever

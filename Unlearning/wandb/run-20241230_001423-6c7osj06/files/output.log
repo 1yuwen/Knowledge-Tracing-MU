@@ -1,0 +1,501 @@
+finished
+finished
+Total Tuning Params: 427616513
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:32<00:00,  8.01s/it]
+Unlearning Process, epo 0, iter 8, lrc=0.000000, total loss=-0.0556, acc_coarse=0.6875, acc_fine=0.9062:  11%|█         | 7/63 [00:42<04:32,  4.86s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.960, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.900, Coarse Accuracy = 0.900, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.740, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.820, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.980, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.660, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.880, Coarse Accuracy = 0.680, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.980, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.860, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=0.5115 loss_fine=0.3102 acc_coarse=0.8431 acc_fine=0.9361
+Unlearning Process, epo 0, iter 12, lrc=0.000000, total loss=0.3225, acc_coarse=0.6875, acc_fine=0.8125:  17%|█▌       | 11/63 [01:20<04:45,  5.49s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.960, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.900, Coarse Accuracy = 0.900, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.680, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.820, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.920, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.580, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.800, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.920, Coarse Accuracy = 0.560, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.940, Coarse Accuracy = 0.980, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=0.5868 loss_fine=0.3034 acc_coarse=0.8046 acc_fine=0.9380
+Unlearning Process, epo 0, iter 16, lrc=0.000000, total loss=0.0705, acc_coarse=0.6562, acc_fine=0.8125:  24%|██▏      | 15/63 [01:58<04:32,  5.67s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.960, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.900, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.640, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.820, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.840, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.480, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.720, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.920, Coarse Accuracy = 0.500, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.980, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=0.6802 loss_fine=0.2977 acc_coarse=0.7660 acc_fine=0.9400
+Unlearning Process, epo 0, iter 20, lrc=0.000000, total loss=-0.2536, acc_coarse=0.3750, acc_fine=0.8750:  30%|██▍     | 19/63 [02:37<04:13,  5.75s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.960, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.600, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.720, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.820, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.360, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.500, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.920, Coarse Accuracy = 0.420, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.980, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=0.7931 loss_fine=0.2924 acc_coarse=0.7086 acc_fine=0.9421
+Unlearning Process, epo 0, iter 24, lrc=0.000000, total loss=-0.7248, acc_coarse=0.1875, acc_fine=0.8750:  37%|██▉     | 23/63 [03:15<03:51,  5.79s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.940, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.560, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.700, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.520, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.280, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.280, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.920, Coarse Accuracy = 0.300, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.960, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=0.9318 loss_fine=0.2870 acc_coarse=0.6255 acc_fine=0.9421
+Unlearning Process, epo 0, iter 28, lrc=0.000000, total loss=-0.1273, acc_coarse=0.5000, acc_fine=0.8125:  43%|███▍    | 27/63 [03:54<03:28,  5.80s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.940, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.500, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.720, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.380, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.200, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.180, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.260, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.960, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=1.0963 loss_fine=0.2816 acc_coarse=0.5850 acc_fine=0.9441
+Unlearning Process, epo 0, iter 32, lrc=0.000000, total loss=-0.0343, acc_coarse=0.4062, acc_fine=0.8125:  49%|███▉    | 31/63 [04:32<03:05,  5.80s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.940, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.440, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.660, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.140, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.160, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.100, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.220, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.960, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=1.3092 loss_fine=0.2769 acc_coarse=0.5318 acc_fine=0.9441
+Unlearning Process, epo 0, iter 36, lrc=0.000000, total loss=-1.0223, acc_coarse=0.1562, acc_fine=0.8438:  56%|████▍   | 35/63 [05:11<02:42,  5.81s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.940, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.400, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.620, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.100, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.080, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.140, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.840, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=1.5779 loss_fine=0.2727 acc_coarse=0.4923 acc_fine=0.9441
+Unlearning Process, epo 0, iter 40, lrc=0.000000, total loss=-0.4827, acc_coarse=0.5000, acc_fine=0.9688:  62%|████▉   | 39/63 [05:50<02:19,  5.81s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.940, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.340, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.600, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.060, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.020, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.120, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.800, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=1.8888 loss_fine=0.2689 acc_coarse=0.4685 acc_fine=0.9441
+Unlearning Process, epo 0, iter 44, lrc=0.000000, total loss=-0.5003, acc_coarse=0.3125, acc_fine=0.9062:  68%|█████▍  | 43/63 [06:28<01:56,  5.81s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.940, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.280, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.560, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.040, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.120, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.800, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=2.1988 loss_fine=0.2654 acc_coarse=0.4546 acc_fine=0.9441
+Unlearning Process, epo 0, iter 48, lrc=0.000000, total loss=-1.9148, acc_coarse=0.3438, acc_fine=0.7500:  75%|█████▉  | 47/63 [07:07<01:33,  5.82s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.920, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.880, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.240, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.540, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.040, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.060, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.800, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=2.5033 loss_fine=0.2625 acc_coarse=0.4409 acc_fine=0.9441
+Unlearning Process, epo 0, iter 52, lrc=0.000000, total loss=-1.2350, acc_coarse=0.3438, acc_fine=0.9375:  81%|██████▍ | 51/63 [07:46<01:09,  5.82s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.920, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.860, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.200, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.520, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.060, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.800, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=2.8192 loss_fine=0.2599 acc_coarse=0.4286 acc_fine=0.9441
+Unlearning Process, epo 0, iter 56, lrc=0.000000, total loss=-1.2003, acc_coarse=0.1250, acc_fine=0.9375:  87%|██████▉ | 55/63 [08:25<00:46,  5.82s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.900, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.820, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.160, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.500, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.060, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.780, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=3.1645 loss_fine=0.2572 acc_coarse=0.4145 acc_fine=0.9441
+Unlearning Process, epo 0, iter 60, lrc=0.000000, total loss=-1.5326, acc_coarse=0.1250, acc_fine=0.9062:  94%|███████▍| 59/63 [09:03<00:23,  5.82s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.880, Coarse Accuracy = 0.880, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.820, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.140, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.400, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.040, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.780, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=3.5567 loss_fine=0.2545 acc_coarse=0.3989 acc_fine=0.9441
+Unlearning Process, epo 0, iter 63, lrc=0.000000, total loss=-1.3210, acc_coarse=0.3750, acc_fine=0.7500: 100%|████████| 63/63 [09:41<00:00,  9.23s/it]
+Fine Class German short-haired pointer: Fine Accuracy = 0.900, Coarse Accuracy = 0.860, Coarse Class = pointer
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class Border terrier: Fine Accuracy = 0.920, Coarse Accuracy = 0.820, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Boston terrier: Fine Accuracy = 0.980, Coarse Accuracy = 0.140, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class West Highland white terrier: Fine Accuracy = 0.960, Coarse Accuracy = 0.320, Coarse Class = terrier
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Pomeranian: Fine Accuracy = 0.960, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class Samoyed: Fine Accuracy = 1.000, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class keeshond: Fine Accuracy = 0.920, Coarse Accuracy = 0.000, Coarse Class = spitz
+  Images in Fine Class: 50
+  Images in Coarse Class: 150
+Fine Class German shepherd dog: Fine Accuracy = 0.940, Coarse Accuracy = 0.040, Coarse Class = shepherdog
+  Images in Fine Class: 50
+  Images in Coarse Class: 50
+Fine Class golden retriever: Fine Accuracy = 0.960, Coarse Accuracy = 0.940, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+Fine Class Labrador retriever: Fine Accuracy = 0.920, Coarse Accuracy = 0.760, Coarse Class = retriever
+  Images in Fine Class: 50
+  Images in Coarse Class: 100
+epo 0, test,loss_coarse=3.9732 loss_fine=0.2520 acc_coarse=0.3872 acc_fine=0.9461
+ 50%|██████████████████████████████████████████████████████████                                                          | 2/4 [00:22<00:22, 11.01s/it]
+Traceback (most recent call last):
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/train.py", line 58, in <module>
+    trainer.train()
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/trainer.py", line 132, in train
+    test_coarse_loss,test_fine_loss, test_coarse,test_fine = test(self.model, unlearn_testloader, epoch, args)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/helper.py", line 424, in test
+    preds_coarse, preds_fine, features = model(data, training=False)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/model/Network.py", line 61, in forward
+    text_features_fine = self.clip_model.encode_text(x_tokenized_fine.cuda())
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/model/model.py", line 372, in encode_text
+    x = x[torch.arange(x.shape[0]), text.argmax(dim=-1)] @ self.text_projection
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in __getattr__
+    def __getattr__(self, name: str) -> Union[Tensor, 'Module']:
+KeyboardInterrupt
