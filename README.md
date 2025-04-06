@@ -17,9 +17,9 @@ The code repository for "[Lifting Data-Tracing Machine Unlearning to Knowledge-T
 
 ## News
 
-[03/2025] 🌟 [arXiv](https://arxiv.org/abs/2403.19979) paper has been released.
+[04/2025] 🌟 [arXiv](https://arxiv.org/abs/2403.19979) paper has been released.
 
-[04/2025] 🌟 The code repository  has been released.
+[04/2025] 🌟 The code repository of the case study has been released.
 
 
 ## Abstract
