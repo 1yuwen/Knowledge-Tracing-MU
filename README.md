@@ -26,7 +26,7 @@ The code repository for "[Lifting Data-Tracing Machine Unlearning to Knowledge-T
 Machine unlearning removes certain training data points and their influence on AI models (e.g. when a data owner revokes their decision to allow models to learn from the data). In this position paper, we propose to lift data-tracing machine unlearning to knowledge-tracing for foundation models (FMs). We support this position based on practical needs and insights from cognitive studies. Practically, tracing data cannot meet the diverse unlearning requests for FMs, which may be from regulators, enterprise users, product teams, etc., having no access to FMs' massive training data. Instead, it is convenient for these parties to issue an unlearning request about the knowledge or capability FMs (should not) possess. Cognitively, knowledge-tracing unlearning aligns with how the human brain forgets more closely than tracing individual training data points. Finally, we provide a case study using a vision-language foundation model to deepen the discussions.
 <p></p>
 
-## Pipeline
+## Case Study
 <div align="center">
 <img src="results/overall_process.png" width="93%">
 </div>
@@ -50,9 +50,8 @@ The following table shows the main results of our proposed method and other SOTA
 
 ## Requirements
 ### Dependencies
-1. [torch 1.11.0](https://github.com/pytorch/pytorch)
-2. [torchvision 0.12.0](https://github.com/pytorch/vision)
-3. [timm 0.6.12](https://github.com/huggingface/pytorch-image-models)
+1. [torch 1.12.1](https://github.com/pytorch/pytorch)
+2. [torchvision 0.13.1](https://github.com/pytorch/vision)
 
 
 ### Datasets
@@ -96,11 +95,9 @@ If you find this useful in your research, please consider citing:
 ```
 
 ## Acknowledgment
-This repo is based on [RevisitingCIL](https://github.com/zhoudw-zdw/RevisitingCIL) and [PyCIL](https://github.com/G-U-N/PyCIL).
-
-The implemenations of parameter-efficient tuning methods are based on [VPT](https://github.com/sagizty/VPT), [AdaptFormer](https://github.com/ShoufaChen/AdaptFormer), and [SSF](https://github.com/dongzelian/SSF).
+This repo is based on [CLIP](https://github.com/openai/CLIP) and [PyCIL](https://github.com/G-U-N/PyCIL).
 
 Thanks for their wonderful work!!!
 
 ## Correspondence
-If you have any question about this project, please contact xex@hust.edu.cn
+If you have any question about this project, please contact yuwentan@bu.edu
