@@ -9,6 +9,7 @@
 <div>
 <sup>1</sup>Department of Computer Science, Boston University &emsp;
 </div>
+</div>
 
 The code repository for "[Lifting Data-Tracing Machine Unlearning to Knowledge-Tracing for Foundation Model Unlearning](https://arxiv.org/abs/2403.19979)" in PyTorch. 
     
