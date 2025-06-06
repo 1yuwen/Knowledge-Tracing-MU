@@ -12,15 +12,6 @@ Department of Computer Science, Boston University &emsp;
 </div>
 </div>
 
-<div>
-    <a href='' target='_blank'>Yuwen Tan</a>&emsp;
-    <a href='' target='_blank'>Boqing Gong</a>&emsp;
-</div>
-
-<div>
-    Department of Computer Science, Boston University
-</div>
-
 The code repository for "[Lifting Data-Tracing Machine Unlearning to
 Knowledge-Tracing for Foundation Models](https://arxiv.org/abs/2403.19979)" in PyTorch. 
     
