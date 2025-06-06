@@ -101,7 +101,7 @@ If you find this useful in your research, please consider citing:
 ```
 
 ## Acknowledgment
-This repo is based on [CLIP](https://github.com/openai/CLIP)  [NPO](https://github.com/licong-lin/negative-preference-optimization) and [SaLUN] (https://github.com/OPTML-Group/Unlearn-Saliency).
+This repo is based on [CLIP](https://github.com/openai/CLIP),[NPO](https://github.com/licong-lin/negative-preference-optimization) ,and [SaLUN](https://github.com/OPTML-Group/Unlearn-Saliency).
 
 Thanks for their wonderful work!!!
 
