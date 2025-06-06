@@ -18,7 +18,7 @@ Knowledge-Tracing for Foundation Models](https://arxiv.org/abs/2403.19979)" in P
 
 [06/2025] 🌟 [arXiv](https://arxiv.org/abs/2403.19979) paper has been released.
 
-[06/2025] 🌟 The code repository of the case study has been released.
+[06/2025] 🌟 The code repository of the case study has been released. [[Project Page]](https://1yuwen.github.io/Knowledge-Tracing-MU-Page/)
 
 
 ## Abstract
