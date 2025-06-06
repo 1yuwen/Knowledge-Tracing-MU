@@ -86,9 +86,11 @@ bash ./scripts/train/Compcars_train.sh
 ```
 
 ## Evaluation Scripts
+You need to specify the saved checkpoint for each MU method first!!!
 
 Evaluate the forgetting quality and model utility:
 
+```
 python Unlearning/evaluate.py 
 
 for ImgnetDogs:
@@ -98,7 +100,7 @@ for CompCars-S:
 bash /scripts/evaluate_retain/evaluate_retain_Compcars.sh
 ```
 Evaluate model generalizability:
-
+```
 python Unlearning/evaluate_retain.py 
 
 for ImgnetDogs:
