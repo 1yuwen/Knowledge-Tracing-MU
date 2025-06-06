@@ -4,6 +4,17 @@
 <div>
     <a href='' target='_blank'>Yuwen Tan</a>&emsp;
     <a href='' target='_blank'>Boqing Gong</a>&emsp;
+    
+</div>
+
+<div>
+Department of Computer Science, Boston University &emsp;
+</div>
+</div>
+
+<div>
+    <a href='' target='_blank'>Yuwen Tan</a>&emsp;
+    <a href='' target='_blank'>Boqing Gong</a>&emsp;
 </div>
 
 <div>
