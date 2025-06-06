@@ -91,7 +91,7 @@ You need to specify the saved checkpoint for each MU method first!!!
 Evaluate the forgetting quality and model utility:
 
 ```
-python Unlearning/evaluate.py 
+python Unlearning/evaluate_retain.py 
 
 for ImgnetDogs:
 bash ./scripts/evaluate_retain/evaluate_retain_Subsetdog.sh
@@ -101,7 +101,7 @@ bash ./scripts/evaluate_retain/evaluate_retain_Compcars.sh
 ```
 Evaluate model generalizability:
 ```
-python Unlearning/evaluate_retain.py 
+python Unlearning/evaluate.py 
 
 for ImgnetDogs:
 bash ./scripts/evaluate_retain/evaluate_Subsetdog.sh
