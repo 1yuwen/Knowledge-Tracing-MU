@@ -30,7 +30,7 @@ Machine unlearning removes certain training data points and their influence on A
 
 ## Case Study
 <div align="center">
-<img src="assets/case.png" width="93%">
+<img src="assets/case.png" width="90%">
 </div>
 <p></p>
 
@@ -47,8 +47,12 @@ The following table shows the main results of our proposed method and other SOTA
 </div>
 
 <div align="center">
-<img src="results/main table.JPG" width="96%">
+<img src="assets/table2.png" width="96%">
 </div>
+<div align="center">
+<img src="assets/table3.png" width="96%">
+</div>
+
 
 
 ## Requirements
