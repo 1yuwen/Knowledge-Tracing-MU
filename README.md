@@ -61,14 +61,12 @@ The following table shows the main results of our proposed method and other SOTA
 2. [torchvision 0.13.1](https://github.com/pytorch/vision)
 
 ### Datasets
-We provide the processed datasets as follows:
+We provide the orginal datasets as follows:
 - **ImageNet-1k**: Reference [ImageNet-1k](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
 - **Compcars**: Reference [CompCars](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
-
 You need to modify the path of the datasets in `./data/.../test.jsonl` and `./data/.../train.jsonl` according to your own path.
 
 ## Training Scripts
-Please follow the settings in the `exps` folder to prepare your json files, and then run:
 
 ```
 python main.py --config ./exps/[configname].json
@@ -84,6 +82,8 @@ python main.py --config ./exps/adapter_cub.json
 
 ```
 
+## Evaluation Scripts
+
 
 ## Citation
 If you find this useful in your research, please consider citing:
@@ -98,7 +98,7 @@ If you find this useful in your research, please consider citing:
 ```
 
 ## Acknowledgment
-This repo is based on [CLIP](https://github.com/openai/CLIP) and [PyCIL](https://github.com/G-U-N/PyCIL).
+This repo is based on [CLIP](https://github.com/openai/CLIP) and [NPO](https://github.com/licong-lin/negative-preference-optimization).
 
 Thanks for their wonderful work!!!
 
