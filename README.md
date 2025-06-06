@@ -17,9 +17,9 @@ The code repository for "[Lifting Data-Tracing Machine Unlearning to Knowledge-T
 
 ## News
 
-[04/2025] 🌟 [arXiv](https://arxiv.org/abs/2403.19979) paper has been released.
+[06/2025] 🌟 [arXiv](https://arxiv.org/abs/2403.19979) paper has been released.
 
-[04/2025] 🌟 The code repository of the case study has been released.
+[06/2025] 🌟 The code repository of the case study has been released.
 
 
 ## Abstract
@@ -53,16 +53,12 @@ The following table shows the main results of our proposed method and other SOTA
 1. [torch 1.12.1](https://github.com/pytorch/pytorch)
 2. [torchvision 0.13.1](https://github.com/pytorch/vision)
 
-
 ### Datasets
 We provide the processed datasets as follows:
-- **CIFAR100**: will be automatically downloaded by the code.
-- **CUB200** **ImageNet-R** **ImageNet-A**  **VTAB**: Reference [Revisiting](https://github.com/zhoudw-zdw/RevisitingCIL)
+- **ImageNet-1k**: Reference [ImageNet-1k](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
+- **Compcars**: Reference [CompCars](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
 
-
-These subsets are sampled from the original datasets. Please note that we  do not have the right to distribute these datasets. If the distribution violates the license, I shall provide the filenames instead.
-
-You need to modify the path of the datasets in `./data/data.py`  according to your own path.
+You need to modify the path of the datasets in `./data/.../test.jsonl` and `./data/.../train.jsonl` according to your own path.
 
 ## Training Scripts
 Please follow the settings in the `exps` folder to prepare your json files, and then run:
