@@ -67,18 +67,14 @@ We provide the orginal datasets as follows:
 You need to modify the path of the datasets in `./data/.../test.jsonl` and `./data/.../train.jsonl` according to your own path.
 
 ## Training Scripts
-
+You can specify your own unlearning targets, datasets, and other training parameters to train a customized unlearning model using `train.py`. In our setup, we provide ready-to-use scripts under the `scripts/` directory, which define the unlearning targets and hyperparameters used in this paper.
 ```
-python main.py --config ./exps/[configname].json
+python Unlearning/train.py 
 
-for imageneta:
-python main.py --config ./exps/adapter_imageneta.json
-for imagenetr:
-python main.py --config ./exps/adapter_imagenetr.json
-for cifar224:
-python main.py --config ./exps/adapter_cifar224.json
-for cub200:
-python main.py --config ./exps/adapter_cub.json
+for Compcars:
+bash ./scripts/train/Compcars_train.sh
+for Subsetdog:
+bash ./scripts/train/Subsetdog_train.sh
 
 ```
 
