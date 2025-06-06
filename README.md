@@ -2,14 +2,12 @@
 <div align="center">
 
 <div>
-    <a href='' target='_blank'>Yuwen Tan</a><sup>1</sup>&emsp;
-    <a href='' target='_blank'>Boqing Gong</a><sup>1</sup>&emsp;
-    
+    <a href='' target='_blank'>Yuwen Tan</a>&emsp;
+    <a href='' target='_blank'>Boqing Gong</a>&emsp;
 </div>
 
 <div>
-<sup>1</sup>Department of Computer Science, Boston University &emsp;
-</div>
+    Department of Computer Science, Boston University
 </div>
 
 The code repository for "[Lifting Data-Tracing Machine Unlearning to
