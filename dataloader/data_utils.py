@@ -18,16 +18,16 @@ def get_unlearn_dataloader(args):
         unlearn_coarse_classes= args.unlearn_coarse_classes
         unlearning_goal=args.unlearning_goal
         if args.unlearning_goal=='fine':
-            unlearn_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
-            unlearn_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
+            unlearn_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='./data/Compcars', train=True,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
+            unlearn_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
         if args.unlearning_goal=='coarse':
-            unlearn_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
-            unlearn_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
+            unlearn_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='./data/Compcars', train=True,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
+            unlearn_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
         if args.unlearning_goal=='hybrid':
-            unlearn_coarse_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal='coarse',unlearn_classes= unlearn_coarse_classes,trans=True)
-            unlearn_coarse_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=True,goal='coarse',unlearn_classes= unlearn_coarse_classes,trans=True)   
-            unlearn_fine_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal='fine',unlearn_classes= unlearn_coarse_classes,trans=True)
-            unlearn_fine_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=True,goal='fine',unlearn_classes= unlearn_coarse_classes,trans=True)     
+            unlearn_coarse_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='./data/Compcars', train=True,unlearn=True,goal='coarse',unlearn_classes= unlearn_coarse_classes,trans=True)
+            unlearn_coarse_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=True,goal='coarse',unlearn_classes= unlearn_coarse_classes,trans=True)   
+            unlearn_fine_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='./data/Compcars/', train=True,unlearn=True,goal='fine',unlearn_classes= unlearn_coarse_classes,trans=True)
+            unlearn_fine_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=True,goal='fine',unlearn_classes= unlearn_coarse_classes,trans=True)     
             unlearn_trainset= ConcatDataset([unlearn_coarse_trainset,unlearn_fine_trainset])  
             unlearn_testset= ConcatDataset([unlearn_coarse_testset,unlearn_fine_testset])
     if args.unlearn_dataset == 'Subsetdog':
@@ -58,15 +58,15 @@ def get_retain_dataloader(args):
     unlearning_goal=args.unlearning_goal
     if args.unlearn_dataset == 'Compcars':
         if args.unlearning_goal=='fine':
-            retain_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
-            retain_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
+            retain_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='./data/Compcars', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
+            retain_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
         elif args.unlearning_goal=='coarse':
-            retain_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
-            retain_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
+            retain_trainset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
+            retain_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_coarse_classes,trans=True)
         elif args.unlearning_goal=='hybrid':
             unlearn_classes=unlearn_fine_classes+unlearn_coarse_classes
-            retain_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_classes,trans=True)
-            retain_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_classes,trans=True)   
+            retain_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='./data/Compcars', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_classes,trans=True)
+            retain_testset = args.unlearn_Dataset.COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_classes,trans=True)   
     if args.unlearn_dataset == 'Subsetdog':
         if args.unlearning_goal=='fine':
             retain_trainset = args.unlearn_Dataset.Subsetdog_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=False,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes)

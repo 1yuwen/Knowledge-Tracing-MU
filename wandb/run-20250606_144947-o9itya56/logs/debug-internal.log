@@ -1,0 +1,8 @@
+{"time":"2025-06-06T14:49:47.221736356-04:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-06-06T14:49:47.221746532-04:00","level":"INFO","msg":"created symlink","path":"/projectnb/ivc-ml/yuwentan/Unlearning/wandb/run-20250606_144947-o9itya56/logs/debug-core.log"}
+{"time":"2025-06-06T14:49:47.431481635-04:00","level":"INFO","msg":"created new stream","id":"o9itya56"}
+{"time":"2025-06-06T14:49:47.431507461-04:00","level":"INFO","msg":"stream: started","id":"o9itya56"}
+{"time":"2025-06-06T14:49:47.43151875-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"o9itya56"}
+{"time":"2025-06-06T14:49:47.431525015-04:00","level":"INFO","msg":"sender: started","stream_id":"o9itya56"}
+{"time":"2025-06-06T14:49:47.431536358-04:00","level":"INFO","msg":"handler: started","stream_id":"o9itya56"}
+{"time":"2025-06-06T14:49:47.832310198-04:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/train.py", line 54, in <module>
+    trainer.train()
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/trainer.py", line 117, in train
+    unlearn_trainloader, unlearn_testloader= self.get_dataloader()
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/trainer.py", line 57, in get_dataloader
+    unlearn_trainloader, unlearn_testloader = get_unlearn_dataloader(self.args)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/data_utils.py", line 21, in get_unlearn_dataloader
+    unlearn_trainset = args.unlearn_Dataset.COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal=unlearning_goal,unlearn_classes= unlearn_fine_classes,trans=True)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Compcars/Compcars.py", line 31, in __init__
+    self._pre_operate(self.root, self.train)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Compcars/Compcars.py", line 92, in _pre_operate
+    with open(json_file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Compcars/train.jsonl'

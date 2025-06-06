@@ -7,7 +7,7 @@ import json
 import numpy as np
 
 class COMPARS_Unlearn(Dataset):
-    def __init__(self, root='/projectnb/ivc-ml/yuwentan/Unlearning/data/Compcars/', train=True,unlearn=False,goal='fine',unlearn_classes=[],trans=True):
+    def __init__(self, root='./data/Compcars', train=True,unlearn=False,goal='fine',unlearn_classes=[],trans=True):
         self.root = root
         self.train = train  
         if trans:
@@ -83,7 +83,7 @@ class COMPARS_Unlearn(Dataset):
         return data_tmp, targets_fine,targets_coarse,index
 
     def _pre_operate(self, root,train):
-        root='/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Compcars/'
+        root='./data/Compcars'
         image_file=[]
         if train:
             json_file = os.path.join(root,'train.jsonl')
@@ -100,9 +100,9 @@ class COMPARS_Unlearn(Dataset):
             self.data.append(image_path)
             self.coarse_texts.append(k["coarse_label"])
             self.fine_texts.append(k["fine_label"])
-        with open('/projectnb/ivc-ml/yuwentan/Unlearning/data/Compcars/coarse_label_subset.txt', 'r') as file:
+        with open('./data/Compcars/coarse_label_subset.txt', 'r') as file:
             coarse_names_set = file.read().splitlines()
-        with open('/projectnb/ivc-ml/yuwentan/Unlearning/data/Compcars/fine_label_subset.txt', 'r') as file:
+        with open('./data/Compcars/fine_label_subset.txt', 'r') as file:
             fine_names_set = file.read().splitlines()
         coarse_dict = {value: index for index, value in enumerate(list(coarse_names_set))}
         fine_dict = {value: index for index, value in enumerate(list(fine_names_set))}
@@ -126,6 +126,6 @@ class COMPARS_Unlearn(Dataset):
         total_image = classify_image
         return total_image, coarse_targets,fine_targets, index
 
-if __name__ == "__main__":
-    unlearn_train_dataset=COMPARS_Unlearn(root='/projectnb/ivc-ml/yuwentan/dataset/Compcars/', train=True,unlearn=True,goal='fine',unlearn_classes=['BMW i3'])
-    print(1)
+# if __name__ == "__main__":
+#     unlearn_train_dataset=COMPARS_Unlearn(root='/projectnb/ivc-ml/yuwentan/dataset/Compcars/', train=True,unlearn=True,goal='fine',unlearn_classes=['BMW i3'])
+#     print(1)

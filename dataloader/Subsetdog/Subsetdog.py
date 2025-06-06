@@ -66,7 +66,7 @@ class Subsetdog_Unlearn(Dataset):
 
         sampled_indices = []
         for label, indices in class_to_indices.items():
-            max_samples = min(len(indices), 150)  # 防止超出类别数据
+            max_samples = min(len(indices), 150) 
             sampled_indices.extend(random.sample(indices, max_samples))
 
         return sampled_indices

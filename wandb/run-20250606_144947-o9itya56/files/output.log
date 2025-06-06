@@ -1,0 +1,4 @@
+finished
+finished
+Total Tuning Params: 427616513
+Unlearning Process, epo 0, iter 2, lrc=0.000000, total loss=-0.1398, acc_coarse=0.8750, acc_fine=0.8750:   2%| | 1/55 [00:12<10:57

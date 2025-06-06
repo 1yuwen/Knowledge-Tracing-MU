@@ -17,11 +17,11 @@ class ULTrainer(Trainer):
         self.set_save_path()
         self.args = set_up_datasets(self.args)
         if  args.unlearn_dataset == 'Compcars':
-            coarse_classnames= list(text_read('./Unlearning/dataloader/Compcars/coarse_label_subset.txt'))
-            fine_classnames = list(text_read('./Unlearning/dataloader/Compcars/fine_label_subset.txt'))
+            coarse_classnames= list(text_read('./data/Compcars/coarse_label_subset.txt'))
+            fine_classnames = list(text_read('./data/Compcars/fine_label_subset.txt'))
         if  args.unlearn_dataset == 'Subsetdog':
-            coarse_classnames= list(text_read('./Unlearning/dataloader/Subsetdog/coarse_label_subset.txt'))
-            fine_classnames = list(text_read('./Unlearning/dataloader/Subsetdog/fine_label_subset.txt'))
+            coarse_classnames= list(text_read('./data/Subsetdog/coarse_label_subset.txt'))
+            fine_classnames = list(text_read('./data/Subsetdog/fine_label_subset.txt'))
         self.model = UnlearningCLIP(coarse_classnames,fine_classnames,args)
         self.model = self.model.cuda()
         self.originmodel = ZeroshotCLIP(coarse_classnames, fine_classnames,args)
