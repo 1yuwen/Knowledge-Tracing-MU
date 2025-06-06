@@ -14,7 +14,9 @@ from dataloader.Compcars.car_dict import*
 from dataloader.Subsetdog.subdog_dict import*
 from collections import defaultdict
 
-
+"""
+Please specify the dataset root
+"""
 def get_evaluated_dataloader(args,test_transform):
     if args.evaluate_dataset=='imagenet':
         trainset=torchvision.datasets.ImageNet('/projectnb/ivc-ml/yuwentan/dataset/imagenet',split='train',transform=test_transform)
@@ -182,7 +184,7 @@ if __name__ == '__main__':
                     correct_unlearn_coarse += 1
                 if preds_list_fine[i].item() == labels_list_fine[i].item(): 
                     correct_unlearn_fine += 1    
-            else:  # 其他类别
+            else:  
                 total_retain_coarse += 1
                 total_retain_fine += 1
                 if preds_list_coarse[i].item() == labels_list_coarse[i].item(): 
