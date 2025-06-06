@@ -1,7 +1,5 @@
-export DATA_DIR="/projectnb/ivc-ml/yuwentan"
 export PROJECT="Unlearning"
-
-CHECKPOINT_ROOT="/projectnb/ivc-ml/yuwentan/Unlearning/checkpoint"
+CHECKPOINT_ROOT="./Unlearning/checkpoint"
 
 dataset=Subsetdog
 unlearn_goal='fine'

@@ -1,9 +1,8 @@
 #!/bin/bash
 
-export DATA_DIR="/projectnb/ivc-ml/yuwentan"
 export PROJECT="Unlearning"
 
-CHECKPOINT_ROOT="/projectnb/ivc-ml/yuwentan/Unlearning/checkpoint"
+CHECKPOINT_ROOT="./Unlearning/checkpoint"
 Unlearn_dataset=Subsetdog
 Unlearn_easy_classes=('German short-haired pointer' 'keeshond' 'Samoyed' 'Pomeranian' 'basset hound' 'miniature pinscher' 'English setter' 'beagle' 'Scottish terrier' 'Yorkshire terrier')
 #('English setter' 'beagle'  'whippet' 'Ibizan hound' 'Dandie Dinmont terrier' 'standard poodle'  'Border collie'  'Blenheim spaniel' 'cairn terrier' 'Doberman' 'groenendael')

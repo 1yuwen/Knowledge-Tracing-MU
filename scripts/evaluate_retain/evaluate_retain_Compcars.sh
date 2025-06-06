@@ -1,7 +1,6 @@
 ""
   please specify your own data root.
 ""
-export DATA_DIR="/projectnb/ivc-ml/yuwentan"
 export PROJECT="Unlearning"
 CHECKPOINT_ROOT="./Unlearning/checkpoint"
 

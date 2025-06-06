@@ -1,11 +1,10 @@
 #!/bin/bash
 
-export DATA_DIR="/projectnb/ivc-ml/yuwentan"
 export PROJECT="Unlearning"
 
 Unlearn_easy_classes=('Acura MDX' 'Lexus RX' 'Jaguar XK' 'MINI CABRIO' 'Audi A7' 'Audi A5 coupe' 'Cadillac SRX'  'Corvette' 'Mustang')
 Unlearn_dataset=Compcars
-CHECKPOINT_ROOT="/projectnb/ivc-ml/yuwentan/Unlearning/checkpoint"
+CHECKPOINT_ROOT="./Unlearning/checkpoint"
 declare -a datasets=( "Food101" "Flower102" "caltech101" "OxfordPet" "cifar100")
 declare -a methods=('KL' 'Hinge' 'NPO' 'Relabeling' 'neg' 'GDiff' 'SALUN') 
 
