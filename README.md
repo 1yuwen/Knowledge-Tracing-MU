@@ -60,6 +60,7 @@ The following table shows the main results of our proposed method and other SOTA
 1. [torch 1.12.1](https://github.com/pytorch/pytorch)
 2. [torchvision 0.13.1](https://github.com/pytorch/vision)
 
+For more information about the environment requirements, please see ./requirements.txt.
 
 ### Datasets
 We provide the orginal datasets as follows:
