@@ -3,6 +3,7 @@ import argparse
 import importlib
 from utils import *
 
+PROJECT='/project_path'
 
 def get_command_line_parser():
     parser = argparse.ArgumentParser()

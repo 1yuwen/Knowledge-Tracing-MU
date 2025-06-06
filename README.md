@@ -71,7 +71,9 @@ Our training set are the subsets of these datasets. You need to modify the path 
 For the general evaluation datasets, we include
 
 ## Training Scripts
-You can specify your own unlearning targets, datasets, and other training parameters to train a customized unlearning model using `train.py`. In our setup, we provide ready-to-use scripts under the `scripts/` directory, which define the unlearning targets and hyperparameters used in this paper.
+You can specify your own unlearning targets, datasets, and training parameters to train a customized unlearning model using train.py.
+
+In our setup, we provide ready-to-use scripts under the scripts/ directory for all compared methods. These scripts define the unlearning targets and hyperparameters used throughout the paper.
 ```
 python Unlearning/train.py 
 
