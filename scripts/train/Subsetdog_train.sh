@@ -36,9 +36,9 @@ function run_training {
     echo "Training completed for method: $1"
 }
 
-run_training "GDiff" 8e-8 0 20 20 1 2
+run_training "GDiff" 8e-8 0 20 20 0 0
 run_training "GA" 8e-8 0 0 0 0 0
-run_training "KL" 8e-8 20 20 0 0 0
+run_training "KL" 8e-8 0 20 20 0 0
 run_training "Relabeling" 1e-7 0 0 0 0 0
 run_training "SALUN" 2e-7 0 0 0 0 0
 run_training "ME" 1e-7 0 0 0 0 0
