@@ -67,7 +67,7 @@ We provide the orginal datasets as follows:
 - **ImageNet-1k**: Reference [ImageNet-1k](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
 - **CompCars**: Reference [CompCars](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
 
-Our training sets are subsets of the original datasets. Please modify the dataset paths in ./data/.../train.jsonl and ./data/.../test.jsonl to match your local setup. Additionally, specify the dataset root directory in ./dataloader/data_utils.py.
+Our training sets are subsets of the original datasets. Please modify the dataset paths in ./data/.../train.jsonl and ./data/.../test.jsonl to match your local setup. 
 
 For general capability evaluation, we include the following datasets: [cifar100](https://www.cs.toronto.edu/~kriz/cifar.html), [Stanford Cars](https://github.com/jhpohovey/StanfordCars-Dataset), [Food 101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/), [Flower 102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) , [Catech101](https://data.caltech.edu/records/mzrjq-6wc02) and [OxfordPet](https://www.robots.ox.ac.uk/~vgg/data/pets/). Please download these datasets before running the evaluation.
 
