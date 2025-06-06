@@ -1,4 +1,4 @@
-# Lifting Data-Tracing Machine Unlearning to Knowledge-Tracing for Foundation Model Unlearning
+# Lifting Data-Tracing Machine Unlearning to Knowledge-Tracing for Foundation Models
 <div align="center">
 
 <div>
@@ -12,7 +12,8 @@
 </div>
 </div>
 
-The code repository for "[Lifting Data-Tracing Machine Unlearning to Knowledge-Tracing for Foundation Model Unlearning](https://arxiv.org/abs/2403.19979)" in PyTorch. 
+The code repository for "[Lifting Data-Tracing Machine Unlearning to
+Knowledge-Tracing for Foundation Models](https://arxiv.org/abs/2403.19979)" in PyTorch. 
     
 
 ## News
@@ -23,7 +24,7 @@ The code repository for "[Lifting Data-Tracing Machine Unlearning to Knowledge-T
 
 
 ## Abstract
-Machine unlearning removes certain training data points and their influence on AI models (e.g. when a data owner revokes their decision to allow models to learn from the data). In this position paper, we propose to lift data-tracing machine unlearning to knowledge-tracing for foundation models (FMs). We support this position based on practical needs and insights from cognitive studies. Practically, tracing data cannot meet the diverse unlearning requests for FMs, which may be from regulators, enterprise users, product teams, etc., having no access to FMs' massive training data. Instead, it is convenient for these parties to issue an unlearning request about the knowledge or capability FMs (should not) possess. Cognitively, knowledge-tracing unlearning aligns with how the human brain forgets more closely than tracing individual training data points. Finally, we provide a case study using a vision-language foundation model to deepen the discussions.
+Machine unlearning removes certain training data points and their influence on AI models (e.g. when a data owner revokes their decision to allow models to learn from the data). In this position paper, we propose to lift data-tracing machine unlearning to knowledge-tracing for foundation models (FMs). We support this position based on practical needs and insights from cognitive studies. Practically, tracing data cannot meet the diverse unlearning requests for FMs, which may be from regulators, enterprise users, product teams, etc., having no access to FMs' massive training data. Instead, it is convenient for these parties to issue an unlearning request about the knowledge or capability FMs (should not) possess. Cognitively, knowledge-tracing unlearning aligns with how the human brain forgets more closely than tracing individual training data points. Finally, we provide a concrete case study about a vision-language FM to illustrate how an unlearner might instantiate the knowledge-tracing machine unlearning paradigm. 
 <p></p>
 
 ## Case Study
@@ -35,6 +36,11 @@ Machine unlearning removes certain training data points and their influence on A
 <div>
 We use adapter without parameter limitation as our baseline, compared with other PETuning method, we find adapter performs best in balancing the performance of old and new classes. We further train the classifier by sampling features with Gaussian samples, which improves the performance of the incremental process. During the construction of the distribution, we apply semantic bias correction to the prototype of each feature within each class.
 </div>
+
+<div align="center">
+<img src="assets/teaser.png" width="96%">
+</div>
+
 
 <p></p>
 
