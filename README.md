@@ -2,8 +2,7 @@
 <div align="center">
 
 <div>
-    <a href='' target='_blank'>Yuwen Tan</a> and <a href='' target='_blank'>Boqing Gong</a>;
-    
+    <a href='' target='_blank'>Yuwen Tan</a> and <a href='' target='_blank'>Boqing Gong</a>
 </div>
 
 <div>
