@@ -69,7 +69,7 @@ We provide the orginal datasets as follows:
 
 Our training set are the subsets of these datasets. You need to modify the path of the datasets in `./data/.../test.jsonl` and `./data/.../train.jsonl` according to your own path.
 
-For the general evaluation datasets, we include
+For general capability evaluation, we include the following datasets: [cifar100](https://www.cs.toronto.edu/~kriz/cifar.html), [Stanford Cars](https://github.com/jhpohovey/StanfordCars-Dataset), [Food 101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/), [Flower 102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) , [Catech101](https://data.caltech.edu/records/mzrjq-6wc02) and [OxfordPet](https://www.robots.ox.ac.uk/~vgg/data/pets/). Please download these datasets before running the evaluation.
 
 ## Training Scripts
 You can specify your own unlearning targets, datasets, and training parameters to train a customized unlearning model using train.py.
