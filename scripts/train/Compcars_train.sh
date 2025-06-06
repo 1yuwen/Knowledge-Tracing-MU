@@ -1,7 +1,7 @@
 #!/bin/bash
 export DATA_DIR="/projectnb/ivc-ml/yuwentan"
 export PROJECT="Unlearning"
-GPU="0"
+GPU="1"
 SEED=1
 train_batch=16
 test_batch=128

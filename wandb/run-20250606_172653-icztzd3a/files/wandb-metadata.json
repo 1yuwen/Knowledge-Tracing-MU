@@ -1,0 +1,148 @@
+{
+  "os": "Linux-4.18.0-553.54.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "3.10.14",
+  "startedAt": "2025-06-06T21:26:53.321684Z",
+  "args": [
+    "-unlearn_dataset",
+    "Subsetdog",
+    "-template",
+    "Subsetdog_test",
+    "-unlearn_coarse_classes",
+    "Terrier",
+    "-unlearn_fine_classes",
+    "German short-haired pointer",
+    "Boston terrier",
+    "West Highland white terrier",
+    "Labrador retriever",
+    "golden retriever",
+    "German shepherd dog",
+    "keeshond",
+    "Samoyed",
+    "Pomeranian",
+    "Border terrier",
+    "-project",
+    "Unlearning",
+    "-backbonename",
+    "ViT-L/14",
+    "-epochs",
+    "8",
+    "-lr",
+    "9e-8",
+    "-schedule",
+    "Cosine",
+    "-unlearning_method",
+    "GDiff",
+    "-unlearning_goal",
+    "fine",
+    "-seed",
+    "1",
+    "-batch_size_base",
+    "32",
+    "-test_batch_size",
+    "128",
+    "-gpu",
+    "0",
+    "-beta",
+    "0",
+    "-KL_c",
+    "20",
+    "-KL_f",
+    "20",
+    "-margin_c",
+    "0",
+    "-margin_f",
+    "0"
+  ],
+  "program": "/projectnb/ivc-ml/yuwentan/Unlearning/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/1yuwen/Knowledge-Tracing-MU.git",
+    "commit": "418566d1848e0bb45b9aee385bca7ec6e8ecf5ed"
+  },
+  "email": "yuwentan@bu.edu",
+  "root": "/projectnb/ivc-ml/yuwentan/Unlearning",
+  "host": "scc-e02",
+  "username": "yuwentan",
+  "executable": "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 32,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 10,
+  "disk": {
+    "/": {
+      "total": "20957446144",
+      "used": "15035142144"
+    }
+  },
+  "memory": {
+    "total": "403807145984"
+  },
+  "cpu": {
+    "count": 32,
+    "countLogical": 32
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

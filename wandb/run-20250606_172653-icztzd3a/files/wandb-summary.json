@@ -1,0 +1,1 @@
+{"_step":6,"_runtime":19.261701502,"forget_learning_rate":9e-08,"forget_train/it_fine_accuracy":0.875,"_wandb":{"runtime":19},"forget_train/it_coarse_accuracy":0.8125,"forget_train/it_train_loss":0.08543747663497925,"iteration":7,"forget_train/it_fine_loss":0.696840226650238,"_timestamp":1.7492452325829673e+09,"forget_train/it_coarse_loss":0.7822777032852173}

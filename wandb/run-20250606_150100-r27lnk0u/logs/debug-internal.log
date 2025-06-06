@@ -1,0 +1,11 @@
+{"time":"2025-06-06T15:01:00.627528661-04:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-06-06T15:01:00.627539095-04:00","level":"INFO","msg":"created symlink","path":"/projectnb/ivc-ml/yuwentan/Unlearning/wandb/run-20250606_150100-r27lnk0u/logs/debug-core.log"}
+{"time":"2025-06-06T15:01:00.837138026-04:00","level":"INFO","msg":"created new stream","id":"r27lnk0u"}
+{"time":"2025-06-06T15:01:00.837164348-04:00","level":"INFO","msg":"stream: started","id":"r27lnk0u"}
+{"time":"2025-06-06T15:01:00.83717273-04:00","level":"INFO","msg":"handler: started","stream_id":"r27lnk0u"}
+{"time":"2025-06-06T15:01:00.837193995-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"r27lnk0u"}
+{"time":"2025-06-06T15:01:00.837193216-04:00","level":"INFO","msg":"sender: started","stream_id":"r27lnk0u"}
+{"time":"2025-06-06T15:01:01.066760172-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-06T15:02:56.831458079-04:00","level":"INFO","msg":"stream: closing","id":"r27lnk0u"}
+{"time":"2025-06-06T15:02:56.831518321-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-06T15:02:56.832246967-04:00","level":"INFO","msg":"Stopped system monitor"}

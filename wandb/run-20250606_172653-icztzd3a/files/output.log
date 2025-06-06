@@ -1,0 +1,47 @@
+finished
+finished
+Total Tuning Params: 427616513
+Unlearning Process, epo 0, iter 7, lrc=0.000000, total loss=0.0854, acc_coarse=0.8125, acc_fine=0.8750:  15%|▏| 7/47 [00:18<01:44,  2.62
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/tokenize.py", line 396, in open
+    encoding, lines = detect_encoding(buffer.readline)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/tokenize.py", line 365, in detect_encoding
+    first = read_or_stop()
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/tokenize.py", line 323, in read_or_stop
+    return readline()
+KeyboardInterrupt
+
+Original exception was:
+Traceback (most recent call last):
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/train.py", line 54, in <module>
+    trainer.train()
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/trainer.py", line 126, in train
+    train_loss,  train_coarse, train_fine,iterations =Unlearn_training(self.model, self.originmodel, unlearn_trainloader,unlearn_testloader, optimizer, scheduler, epoch,args,log_interval,iterations,mask)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/helper.py", line 31, in Unlearn_training
+    preds_coarse, preds_fine, images_features = model(data, training=True)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/model/Network.py", line 45, in forward
+    text_features_fine = self.clip_model.encode_text(x_tokenized_fine.cuda())
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/model/model.py", line 353, in encode_text
+    x = self.transformer(x)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/model/model.py", line 203, in forward
+    return self.resblocks(x)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/model/model.py", line 190, in forward
+    x = x + self.mlp(self.ln_2(x))
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1125, in _call_impl
+    forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+KeyboardInterrupt

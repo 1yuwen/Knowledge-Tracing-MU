@@ -1,0 +1,116 @@
+finished
+finished
+Total Tuning Params: 427616513
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:17<00:00,  5.71s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:15<00:00,  5.32s/it]
+Fine Class Corvette: Fine Accuracy = 1.000, Coarse Accuracy = 0.967, Coarse Class = Chevrolet
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Lexus RX: Fine Accuracy = 0.839, Coarse Accuracy = 0.968, Coarse Class = Lexus
+  Images in Fine Class: 31
+  Images in Coarse Class: 31
+Fine Class Audi A7: Fine Accuracy = 0.900, Coarse Accuracy = 1.000, Coarse Class = Audi
+  Images in Fine Class: 30
+  Images in Coarse Class: 80
+Fine Class Cadillac SRX: Fine Accuracy = 1.000, Coarse Accuracy = 1.000, Coarse Class = Cadillac
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Audi A5 coupe: Fine Accuracy = 0.700, Coarse Accuracy = 0.980, Coarse Class = Audi
+  Images in Fine Class: 50
+  Images in Coarse Class: 80
+Fine Class MINI CABRIO: Fine Accuracy = 1.000, Coarse Accuracy = 0.933, Coarse Class = MINI
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Mustang: Fine Accuracy = 0.967, Coarse Accuracy = 0.900, Coarse Class = Ford
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Acura MDX: Fine Accuracy = 0.900, Coarse Accuracy = 0.733, Coarse Class = Acura
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Jaguar XK: Fine Accuracy = 0.967, Coarse Accuracy = 0.967, Coarse Class = Jaguar
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+epo 0, test,loss_coarse=0.3497 loss_fine=0.3747 acc_coarse=0.9281 acc_fine=0.9202
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:16<00:00,  5.36s/it]
+Fine Class Corvette: Fine Accuracy = 1.000, Coarse Accuracy = 0.967, Coarse Class = Chevrolet
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Lexus RX: Fine Accuracy = 0.677, Coarse Accuracy = 0.968, Coarse Class = Lexus
+  Images in Fine Class: 31
+  Images in Coarse Class: 31
+Fine Class Audi A7: Fine Accuracy = 0.900, Coarse Accuracy = 1.000, Coarse Class = Audi
+  Images in Fine Class: 30
+  Images in Coarse Class: 80
+Fine Class Cadillac SRX: Fine Accuracy = 1.000, Coarse Accuracy = 1.000, Coarse Class = Cadillac
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Audi A5 coupe: Fine Accuracy = 0.620, Coarse Accuracy = 0.980, Coarse Class = Audi
+  Images in Fine Class: 50
+  Images in Coarse Class: 80
+Fine Class MINI CABRIO: Fine Accuracy = 0.900, Coarse Accuracy = 0.933, Coarse Class = MINI
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Mustang: Fine Accuracy = 0.967, Coarse Accuracy = 0.900, Coarse Class = Ford
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Acura MDX: Fine Accuracy = 0.867, Coarse Accuracy = 0.767, Coarse Class = Acura
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Jaguar XK: Fine Accuracy = 0.933, Coarse Accuracy = 0.967, Coarse Class = Jaguar
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+epo 0, test,loss_coarse=0.3027 loss_fine=0.4339 acc_coarse=0.9307 acc_fine=0.8837
+  0%|                                                                                                            | 0/3 [00:01<?, ?it/s]
+Fine Class Corvette: Fine Accuracy = 1.000, Coarse Accuracy = 0.967, Coarse Class = Chevrolet
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Lexus RX: Fine Accuracy = 0.581, Coarse Accuracy = 0.968, Coarse Class = Lexus
+  Images in Fine Class: 31
+  Images in Coarse Class: 31
+Fine Class Audi A7: Fine Accuracy = 0.867, Coarse Accuracy = 1.000, Coarse Class = Audi
+  Images in Fine Class: 30
+  Images in Coarse Class: 80
+Fine Class Cadillac SRX: Fine Accuracy = 1.000, Coarse Accuracy = 1.000, Coarse Class = Cadillac
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Audi A5 coupe: Fine Accuracy = 0.480, Coarse Accuracy = 0.980, Coarse Class = Audi
+  Images in Fine Class: 50
+  Images in Coarse Class: 80
+Fine Class MINI CABRIO: Fine Accuracy = 0.733, Coarse Accuracy = 0.933, Coarse Class = MINI
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Mustang: Fine Accuracy = 0.967, Coarse Accuracy = 0.900, Coarse Class = Ford
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Acura MDX: Fine Accuracy = 0.867, Coarse Accuracy = 0.767, Coarse Class = Acura
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+Fine Class Jaguar XK: Fine Accuracy = 0.900, Coarse Accuracy = 1.000, Coarse Class = Jaguar
+  Images in Fine Class: 30
+  Images in Coarse Class: 30
+epo 0, test,loss_coarse=0.2676 loss_fine=0.5273 acc_coarse=0.9333 acc_fine=0.8394
+Unlearning Process, epo 0, iter 32, lrc=0.000000, total loss=-0.5881, acc_coarse=0.9375, acc_fine=0.6875:  56%|▌| 31/55 [01:55<01:29,  
+Traceback (most recent call last):
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/train.py", line 54, in <module>
+    trainer.train()
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/trainer.py", line 126, in train
+    train_loss,  train_coarse, train_fine,iterations =Unlearn_training(self.model, self.originmodel, unlearn_trainloader,unlearn_testloader, optimizer, scheduler, epoch,args,log_interval,iterations,mask)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/helper.py", line 161, in Unlearn_training
+    test_coarse_loss, test_fine_loss, test_coarse, test_fine = test(model, testloader, epoch, args)
+  File "/projectnb/ivc-ml/yuwentan/Unlearning/Unlearning/helper.py", line 198, in test
+    for i, batch in enumerate(tqdm_gen, 1):
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _next_data
+    idx, data = self._get_data()
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1315, in _get_data
+    success, data = self._try_get_data()
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1163, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/projectnb/ivc-ml/yuwentan/miniconda/envs/Unlearning/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

@@ -14,7 +14,7 @@ import torchvision.datasets
 
 
 class Subsetdog_Unlearn(Dataset):
-    def __init__(self, root='/projectnb/ivc-ml/yuwentan/dataset/Compcars/', train=True,unlearn=False,goal='fine',unlearn_classes=[]):
+    def __init__(self, root='./data/Subsetdog', train=True,unlearn=False,goal='fine',unlearn_classes=[]):
         self.root = root
         self.train = train  # training set or test set
         if self.train:
@@ -128,9 +128,9 @@ class Subsetdog_Unlearn(Dataset):
         with open(json_file, "r") as f:
             for line in f:
                 image_file.append(json.loads(line))
-        with open('/projectnb/ivc-ml/yuwentan/Unlearning/data/Subsetdog/coarse_label_subset.txt', 'r') as file:
+        with open('./data/Subsetdog/coarse_label_subset.txt', 'r') as file:
                 coarse_names_set = file.read().splitlines()
-        with open('/projectnb/ivc-ml/yuwentan/Unlearning/data/Subsetdog/fine_label_subset.txt', 'r') as file:
+        with open('./data/Subsetdog/fine_label_subset.txt', 'r') as file:
                 fine_names_set = file.read().splitlines()
         coarse_dict = {value: index for index, value in enumerate(list(coarse_names_set))}
         fine_dict = {value: index for index, value in enumerate(list(fine_names_set))}

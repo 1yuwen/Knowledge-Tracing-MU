@@ -22,11 +22,11 @@ from sklearn.preprocessing import LabelEncoder
 
 def get_evaluated_dataloader(args):
     if args.unlearn_dataset=='Compcars':
-        retain_trainset = COMPARS_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal=args.unlearning_goal,unlearn_classes=args.unlearn_fine_classes,trans=True)
-        retain_testset = COMPARS_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=args.unlearn,goal=args.unlearning_goal,unlearn_classes= args.unlearn_fine_classes,trans=True)
+        retain_trainset = COMPARS_Unlearn( root='./data/Compcars', train=True,unlearn=True,goal=args.unlearning_goal,unlearn_classes=args.unlearn_fine_classes,trans=True)
+        retain_testset = COMPARS_Unlearn(root='./data/Compcars', train=False,unlearn=args.unlearn,goal=args.unlearning_goal,unlearn_classes= args.unlearn_fine_classes,trans=True)
     if args.unlearn_dataset=='Subsetdog':
-        retain_trainset = Subsetdog_Unlearn( root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=True,unlearn=True,goal=args.unlearning_goal,unlearn_classes=args.unlearn_fine_classes)
-        retain_testset = Subsetdog_Unlearn(root='/projectnb/ivc-ml/dataset/Compcars_subset/', train=False,unlearn=args.unlearn,goal=args.unlearning_goal,unlearn_classes= args.unlearn_fine_classes)
+        retain_trainset = Subsetdog_Unlearn( root='./data/Subsetdog', train=True,unlearn=True,goal=args.unlearning_goal,unlearn_classes=args.unlearn_fine_classes)
+        retain_testset = Subsetdog_Unlearn(root='./data/Subsetdog', train=False,unlearn=args.unlearn,goal=args.unlearning_goal,unlearn_classes= args.unlearn_fine_classes)
     return  retain_testset
     
 def get_command_line_parser():
@@ -89,11 +89,11 @@ if __name__ == '__main__':
 
     # Load class names based on the dataset
     if args.unlearn_dataset == 'Compcars':
-        coarse_classnames = list(text_read('/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Compcars/coarse_label_subset.txt'))
-        fine_classnames = list(text_read('/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Compcars/fine_label_subset.txt'))
+        coarse_classnames = list(text_read('./data/Compcars/coarse_label_subset.txt'))
+        fine_classnames = list(text_read('./data/Compcars/fine_label_subset.txt'))
     if args.unlearn_dataset == 'Subsetdog':
-        coarse_classnames = list(text_read('/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Subsetdog/coarse_label_subset.txt'))
-        fine_classnames = list(text_read('/projectnb/ivc-ml/yuwentan/Unlearning/dataloader/Subsetdog/fine_label_subset.txt'))
+        coarse_classnames = list(text_read('./data/Subsetdog/coarse_label_subset.txt'))
+        fine_classnames = list(text_read('./data/Subsetdog/fine_label_subset.txt'))
 
     # Load the model
     Unlearn_model = UnlearningCLIP(coarse_classnames, fine_classnames, args)
