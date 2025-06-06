@@ -60,22 +60,26 @@ The following table shows the main results of our proposed method and other SOTA
 1. [torch 1.12.1](https://github.com/pytorch/pytorch)
 2. [torchvision 0.13.1](https://github.com/pytorch/vision)
 
+
 ### Datasets
 We provide the orginal datasets as follows:
 - **ImageNet-1k**: Reference [ImageNet-1k](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
-- **Compcars**: Reference [CompCars](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
-You need to modify the path of the datasets in `./data/.../test.jsonl` and `./data/.../train.jsonl` according to your own path.
+- **CompCars**: Reference [CompCars](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
+
+Our training set are the subsets of these datasets. You need to modify the path of the datasets in `./data/.../test.jsonl` and `./data/.../train.jsonl` according to your own path.
+
+For the general evaluation datasets, we include
 
 ## Training Scripts
 You can specify your own unlearning targets, datasets, and other training parameters to train a customized unlearning model using `train.py`. In our setup, we provide ready-to-use scripts under the `scripts/` directory, which define the unlearning targets and hyperparameters used in this paper.
 ```
 python Unlearning/train.py 
 
-for Compcars:
-bash ./scripts/train/Compcars_train.sh
-for Subsetdog:
+for ImgnetDogs:
 bash ./scripts/train/Subsetdog_train.sh
 
+for CompCars-S:
+bash ./scripts/train/Compcars_train.sh
 ```
 
 ## Evaluation Scripts
