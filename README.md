@@ -30,12 +30,12 @@ Machine unlearning removes certain training data points and their influence on A
 
 ## Case Study
 <div align="center">
-<img src="results/overall_process.png" width="93%">
+<img src="assets/case.png" width="93%">
 </div>
 <p></p>
 
 <div>
-We use adapter without parameter limitation as our baseline, compared with other PETuning method, we find adapter performs best in balancing the performance of old and new classes. We further train the classifier by sampling features with Gaussian samples, which improves the performance of the incremental process. During the construction of the distribution, we apply semantic bias correction to the prototype of each feature within each class.
+Following this work's position, we provide a concrete case study about Contrastive Language-Image Pretraining [CLIP](https://github.com/openai/CLIP) to bridge the position with real-world applications and, in return, explore the position in depth, spanning multiple factors and perspectives. We envision that Oudi Inc., a car manufacturer and an enterprise user of the CLIP model, has retired their O1 sedan for some reason. Accordingly, Oudi's product team requests that the Oudi O1 concept be unlearned from CLIP. An unlearner is equipped with existing MU methods developed in the research community but realizes they all operate on the training data points. The unlearner cannot access CLIP's training data; instead, they assemble a set of exemplar Oudi O1 images as the proxy forgetting set $\mathcal{D}^f$ (but no retention set for convenience).
 </div>
 
 
