@@ -97,17 +97,17 @@ for ImgnetDogs:
 bash ./scripts/evaluate_retain/evaluate_retain_Subsetdog.sh
 
 for CompCars-S:
-bash /scripts/evaluate_retain/evaluate_retain_Compcars.sh
+bash ./scripts/evaluate_retain/evaluate_retain_Compcars.sh
 ```
 Evaluate model generalizability:
 ```
 python Unlearning/evaluate_retain.py 
 
 for ImgnetDogs:
-bash ./scripts/evaluate_retain/evaluate_retain_Subsetdog.sh
+bash ./scripts/evaluate_retain/evaluate_Subsetdog.sh
 
 for CompCars-S:
-bash /scripts/evaluate_retain/evaluate_retain_Compcars.sh
+bash ./scripts/evaluate_retain/evaluate_Compcars.sh
 ```
 
 ## Citation
