@@ -87,6 +87,26 @@ bash ./scripts/train/Compcars_train.sh
 
 ## Evaluation Scripts
 
+Evaluate the forgetting quality and model utility:
+
+python Unlearning/evaluate.py 
+
+for ImgnetDogs:
+bash ./scripts/evaluate_retain/evaluate_retain_Subsetdog.sh
+
+for CompCars-S:
+bash /scripts/evaluate_retain/evaluate_retain_Compcars.sh
+```
+Evaluate model generalizability:
+
+python Unlearning/evaluate_retain.py 
+
+for ImgnetDogs:
+bash ./scripts/evaluate_retain/evaluate_retain_Subsetdog.sh
+
+for CompCars-S:
+bash /scripts/evaluate_retain/evaluate_retain_Compcars.sh
+```
 
 ## Citation
 If you find this useful in your research, please consider citing:
